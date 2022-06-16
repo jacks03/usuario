@@ -119,6 +119,7 @@ const Widget = ({ type }) => {
         </span>
         <span className="link">{data.link}</span>
       </div>
+      <p>hoña</p>
       <div className="right">
         <div className={`percentage ${diff < 0 ? "negative" : "positive"}`}>
           {diff < 0 ? <KeyboardArrowDownIcon/> : <KeyboardArrowUpIcon/> }
